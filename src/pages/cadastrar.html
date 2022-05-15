@@ -20,22 +20,22 @@
 
         <form action="#">
 
-            <input type="text" name="nome" placeholder="Nome completo">
-            <input type="date" name="data_nasc">
-            <select name="sexo" id="sexo">
+            <input id="name" type="text" name="nome" placeholder="Nome completo">
+            <input id="data_nasc" type="date" name="data_nasc">
+            <select id="sexo" name="sexo" id="sexo">
                 <option value="Masculino">Masculino</option>
                 <option value="Feminino">Feminino</option>
             </select>
-            <input type="email" name="email" placeholder="bruno_monteiro@cordeiromaquinas.com.br">
+            <input id="email" type="email" name="email" placeholder="nome@email.com">
 
             <hr>
             <h3>Cadastrar Endereço:</h3>
-            <input type="number" name="cep" placeholder="49088140">
-            <input type="text" name="rua" placeholder="Rua Treze">
-            <input type="number" name="numero" placeholder="499">
-            <input type="text" name="bairro" placeholder="Lamarão">
-            <input type="text" name="cidade" placeholder="Aracaju">
-            <select id="estado" name="estado">
+            <input id="cep--adress" type="number" name="cep" placeholder="49088140">
+            <input id="street--adress" type="text" name="rua" placeholder="Rua Treze">
+            <input id="number--adress" type="number" name="numero" placeholder="499">
+            <input id="district--adress" type="text" name="bairro" placeholder="Lamarão">
+            <input id="city--adress" type="text" name="cidade" placeholder="Aracaju">
+            <select id="state" name="estado">
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
                 <option value="AP">Amapá</option>
@@ -70,7 +70,7 @@
             <h3>Cadastrar Contato:</h3>
             <input type="tel" name="telefone_fixo" placeholder="7928955976">
 
-            <button>Cadastrar</button>
+            <button id="signup--button" type="submit">Cadastrar</button>
         </form>
 
     </section>

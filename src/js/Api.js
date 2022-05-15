@@ -1,5 +1,5 @@
 class Api {
-
+  
     static async listarClientes(){
 
         const response = await fetch("https://atividade-api-clientes.herokuapp.com/clientes")
@@ -22,5 +22,5 @@ class Api {
     }
 
 }
-
+  
 export {Api}
