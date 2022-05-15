@@ -2,6 +2,8 @@ import { Api } from "./Api.js";
   
   const clientes = await Api.listarClientes()
   const listaClientes  = document.querySelector("ul")
+
+  Api.editarCliente(1, {nome:"José Duarte"})
   
   //EXEMPLO DE CONSTRUÇÃO DO MÉTODO
   function templateClientes(clientes){
