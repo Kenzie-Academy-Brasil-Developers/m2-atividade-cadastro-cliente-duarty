@@ -4,7 +4,8 @@ import { Api } from "./Api.js";
   const listaClientes  = document.querySelector("ul")
 
   Api.editarCliente(1, {nome:"José Duarte"})
-  
+  await Api.deletarCliente(1)
+
   //EXEMPLO DE CONSTRUÇÃO DO MÉTODO
   function templateClientes(clientes){
   

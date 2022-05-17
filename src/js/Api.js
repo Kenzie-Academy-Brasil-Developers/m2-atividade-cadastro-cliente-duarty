@@ -26,7 +26,14 @@ class Api {
       }
 
     static async deletarCliente(id){
-
+        const response = await fetch(`https://atividade-api-clientes.herokuapp.com/clientes/${id}`, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            //body: JSON.stringify(id)
+        })
+        
     }
 
 }
